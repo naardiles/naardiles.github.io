@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALGO RICO</title>
+    <style>
+       body{
+            background:url("IMG/Fondo.jpeg")
+        }
+        h3,h2,div,h1{
+            color:black;
+            margin: 20px;
+        }
+        header {
+        background: rgb(218, 156, 76);
+        box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.08);
+        z-index: 997;
+        padding: 15px 0;
+        }
+
+        .menu{
+            color: black;
+        }
+        #footer {
+            background: rgb(218, 156, 76);
+            padding: 60px 0;
+            color: #222222;
+            font-size: 20px;
+            text-align: center;
+        }
+        div{
+            background: rgb(218, 156, 76);
+        }
+    </style>
+</head>
+<body>
+    <header id="header" class="fixed-top">
+        <center>
+            <h1 class="logo me-auto me-lg-0"><a>PEDIDO - ALGO RICO  </a></h1>
+           </center> 
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+          <nav id="navbar" class="navbar order-last order-lg-0">
+          <center>
+            <a href="PRODUCTOS.html"class="menu">Productos</a>
+            <a href="ALGORICO.html" class="menu">Pedido</a>
+            <a href="FACTURA.html"class="menu">Factura</a>
+          </center>
+
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav>
+    
+        </div>
+        </header>
+        <div>
+            <center>
+                <form>
+                    <h3>Cliente</h3>
+                    <input type="text" id="Cliente">
+                    <h3>Producto que desee</h3>
+                    <input type="text" id="Producto">
+                    <h3>Día de retiro</h3>
+                    <input type="text" id="Día">
+                    <h3>Lo que desee agregar</h3>
+                    <input type="text" id="Agregar">
+                    <br><br>
+                    <button type="button" value="Enviar" onclick="agregar()">Enviar</button>
+                </form>
+            </center>
+           
+        </div>
+    <footer id="footer">
+        <div class="container">Patelería de confianza </div>
+      </footer>
+    <script src="SCRIPALGORICO.js"></script>
+</body>
+</html>
